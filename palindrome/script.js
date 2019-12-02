@@ -10,10 +10,10 @@
 
 //Solution 2
 
-function palindrome(str) {
-    return str.split('').every( (char, i) =>{
-        return char === str[str.length -i - 1];
-    });
-}
+// function palindrome(str) {
+//     return str.split('').every( (char, i) =>{
+//         return char === str[str.length -i - 1];
+//     });
+// }
 
-console.log(palindrome('abba'));
+// console.log(palindrome('abba'));
